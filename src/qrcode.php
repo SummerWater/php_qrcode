@@ -8,3 +8,4 @@
  * 要求：
  * 开启GD库
  */
+include "phpqrcode/qrlib.php";
