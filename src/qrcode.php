@@ -10,4 +10,9 @@
  */
 include "phpqrcode/qrlib.php";
 
+// 显示一个文本二维码 可以在<img>标签中直接调用
 QRcode::png('abc');
+
+// 保存二维码
+//QRcode::png('http://www.meckey.com', 'qr_code.png', QR_ECLEVEL_L, 10, 1,true);
+
